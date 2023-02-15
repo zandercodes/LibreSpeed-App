@@ -1,0 +1,9 @@
+{
+  "name": "LibreSpeed-App",
+  "version": "1.0.0",
+  "description": "An inofficiel mobile App for iOS and Android built with React Native.",
+  "main": "index.js",
+  "repository": "https://github.com/zandercodes/LibreSpeed-App.git",
+  "author": "ZanderCodes <admin@zandercodes.com>",
+  "license": "LGPL-3.0"
+}
