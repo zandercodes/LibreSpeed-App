@@ -1,0 +1,28 @@
+#
+# .eslintrc.yml
+#
+# Created by Julian Zander on 2023/02/15
+# Copyright © 2023 ZanderCodes
+#
+env:
+  browser: true,
+  es2021: true
+extends:
+  - eslint:recommended
+  - plugin:import/recommended
+  - plugin:react/recommended
+  - airbnb
+parser: "@babel/eslint-parser"
+parserOptions:
+  ecmaFeature:
+    jsx: true
+  ecmaVersion: "latest"
+  sourceType: "module"
+  babelOptions:
+    presets:
+      - "@babel/preset-react"
+plugins:
+  - jsx-a11y
+rules:
+  import/no-extraneous-dependencies: 
+    - "off"
